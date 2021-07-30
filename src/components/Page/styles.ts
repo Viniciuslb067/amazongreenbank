@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import bmw from "../../assets/bmw.jpg";
+
+
 
 export const Container = styled.div`
   .colored:nth-child(1) {
-    background: #f1ffe7;
+    background-image: url(../../../public/bmw.jpg);
   }
   .colored:nth-child(2) {
     background: #dfffd9;
@@ -23,3 +26,7 @@ export const Container = styled.div`
     background: #77e68c;
   }
 `;
+
+export const Spacer = styled.div`
+  height: 15vh;
+`

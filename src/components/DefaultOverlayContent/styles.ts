@@ -57,10 +57,23 @@ export const Buttons = styled.div`
       background: #fff;
       color: #1a1720;
       opacity: 0.65;
+
     }
-
-
+    & + button {
+      margin: 10px 0 0;
   }
+}
+
+@media (min-width: 600px) {
+  flex-direction: row;
+  margin-bottom: 90px;
+
+  > button + button {
+     margin: 0 0 0 10px;
+  }
+
+}
+
 `
 
 ;
