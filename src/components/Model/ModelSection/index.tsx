@@ -21,7 +21,7 @@ function ModelSection({ modelName, overlayNode, children, ...props }: Props) {
         overlayNode,
         sectionRef,
       });
-  }, []);
+  }, [modelName, overlayNode, sectionRef]);
 
   return (
     <Container ref={sectionRef} {...props}>

@@ -1,9 +1,9 @@
-import { ReactNode } from 'react';
 
-import DefaultOverlayContent from '../DefaultOverlayContent';
 import { ModelSection, ModelsWrapper } from '../Model';
+import DefaultOverlayContent from '../DefaultOverlayContent';
+import UniqueOverlay from '../UniqueOverlay';
 
-import { Container } from './styles';
+import { Container, Spacer } from './styles';
 
 function Page() {
   return (
@@ -12,13 +12,13 @@ function Page() {
         <div>
           {[
             'Model 1',
-            // 'Model 2',
-            // 'Model 3',
-            // 'Model 4',
-            // 'Model 5',
-            // 'Model 5',
-            // 'Model 6',
-            // 'Model 7',
+            'Model 2',
+            'Model 3',
+            'Model 4',
+            'Model 5',
+            'Model 5',
+            'Model 6',
+            'Model 7',
           ].map(modelName => (
             <ModelSection 
             key={modelName}
@@ -34,6 +34,9 @@ function Page() {
           />
           ))}
         </div>
+
+          <Spacer />
+        <UniqueOverlay />
       </ModelsWrapper>
     </Container>
   );
