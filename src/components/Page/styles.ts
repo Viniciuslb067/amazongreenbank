@@ -2,10 +2,9 @@ import styled from "styled-components";
 import bmw from "../../assets/bmw.jpg";
 
 
-
 export const Container = styled.div`
   .colored:nth-child(1) {
-    background-image: url(../../../public/bmw.jpg);
+    background: #f1ffe7;
   }
   .colored:nth-child(2) {
     background: #dfffd9;
