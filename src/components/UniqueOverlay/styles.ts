@@ -21,7 +21,7 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 20px;
+  padding: 0 40px;
   min-height: 52px;
 
 `
@@ -29,12 +29,17 @@ export const Header = styled.header`
 export const Logo = styled(AiOutlineCar)`
   height: 17px;
   cursor: pointer;
+
+  transform: scale(2.5);
+
 `
 
 export const Burger = styled(GiHamburgerMenu)`
   width: 24px;
   height: 24px;
   cursor: pointer;
+
+  transform: scale(2);
 
   padding-right: 5px;
 

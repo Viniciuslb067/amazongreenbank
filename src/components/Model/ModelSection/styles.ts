@@ -5,5 +5,11 @@ export const Container = styled.div`
 
   scroll-snap-align: start;
 
+  img {
+
+    width: 100vw;
+
+  }
+
 `;
  
