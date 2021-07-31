@@ -3,6 +3,7 @@ import { ModelSection, ModelsWrapper } from '../Model';
 import DefaultOverlayContent from '../DefaultOverlayContent';
 import UniqueOverlay from '../UniqueOverlay';
 
+
 import { Container, Spacer } from './styles';
 
 function Page() {
@@ -11,14 +12,14 @@ function Page() {
       <ModelsWrapper>
         <div>
           {[
-            'Model 1',
-            'Model 2',
-            'Model 3',
-            'Model 4',
-            'Model 5',
-            'Model 5',
-            'Model 6',
-            'Model 7',
+            'Model One',
+            'Model Two',
+            'Model Three',
+            'Model Four',
+            'Model Five',
+            'Model Six',
+            'Model Seven',
+            'Accessories',
           ].map(modelName => (
             <ModelSection 
             key={modelName}

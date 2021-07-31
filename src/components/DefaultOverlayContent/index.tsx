@@ -1,6 +1,6 @@
-import React from "react";
-
+import { useContext, useState } from "react";
 import { Container, Heading, Buttons } from "./styles"
+import ModelsContext from "../Model/ModelsContext"
 
 interface Props {
   label: string
@@ -8,6 +8,7 @@ interface Props {
 }
 
 function DefaultOverlayContent({label, description}: Props) {
+
   return (
     <Container>
       <Heading>
